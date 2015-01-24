@@ -5,3 +5,7 @@
 .service-details {
   padding-bottom: 50px;
 }
+
+.hideme {
+  opacity: 0;
+}

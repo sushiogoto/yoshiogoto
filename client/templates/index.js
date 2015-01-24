@@ -1,4 +1,10 @@
 // jQuery for page scrolling feature - requires jQuery Easing plugin
+Template.index.helpers({
+  year: function () {
+    return new Date().getFullYear();
+  }
+});
+
 
 Template.index.rendered = function() {
   $(function() {
