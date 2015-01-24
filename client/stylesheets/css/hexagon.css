@@ -33,13 +33,12 @@
   width:100%;
   height:100%;
   background: inherit;
-  z-index:-2;
+  z-index:1;
   overflow:hidden;
   backface-visibility: hidden;
 }
 
 .hex .corner-1 {
-  z-index:-1;
   transform: rotate(60deg);
 }
 
@@ -77,6 +76,7 @@
 /* Custom styles*/
 .hex .inner {
   color:#eee;
+  z-index: 10;
 }
 
 .hex h4 {
