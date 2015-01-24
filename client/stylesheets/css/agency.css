@@ -204,8 +204,21 @@ fieldset[disabled] .btn-xl.active {
     color: #fed136;
 }
 
-.dot {
-    color: #fed136;
+.logo-image {
+    width: 30px;
+    margin-top: 0px;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.logo-text {
+    font-size: 1.8em;
+    margin-top: -34px;
+    margin-left: 16px;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -275,14 +288,6 @@ fieldset[disabled] .btn-xl.active {
         transition: all 0.3s ease-in;
     }
 
-/*    .logo-image {
-        width: 50px;
-        margin-top: -5px;
-        -webkit-transition: all 0.3s ease-in;
-        -moz-transition: all 0.3s ease-in;
-        transition: all 0.3s ease-in;
-    }*/
-
     .logo-image {
         width: 70px;
         margin-top: -5px;
@@ -291,15 +296,6 @@ fieldset[disabled] .btn-xl.active {
         transition: all 0.3s ease-in;
     }
 
-/*    .logo-text {
-        font-size: 3.5em;
-        margin-top: -35px;
-        margin-left: 50px;
-        -webkit-transition: all 0.3s ease-in;
-        -moz-transition: all 0.3s ease-in;
-        transition: all 0.3s ease-in;
-    }
-*/
     .logo-text {
         font-size: 3.5em;
         margin-top: -61px;
@@ -386,7 +382,7 @@ header .intro-text .intro-heading {
     header .intro-text {
         padding-top: 280px;
         padding-bottom: 200px;
-        height: 100%;
+        height: 748px;
     }
 
     header .intro-text .intro-lead-in {
@@ -413,7 +409,7 @@ header .intro-text .intro-heading {
     header .intro-text {
         padding-top: 280px;
         padding-bottom: 200px;
-        height: 100%;
+        height: 748px;
     }
 
     header .intro-text .intro-lead-in {
@@ -751,6 +747,7 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+    width: 335px;
 }
 
 .team-member h4 {
