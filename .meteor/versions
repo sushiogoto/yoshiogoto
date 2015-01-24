@@ -14,9 +14,9 @@ deps@1.0.6
 ejson@1.0.5
 fastclick@1.0.2
 follower-livedata@1.0.3
+fourseven:scss@1.0.0
 gadicohen:robots-txt@0.0.8
 gadicohen:sitemaps@0.0.20
-fourseven:scss@1.0.0
 geojson-utils@1.0.2
 html-tools@1.0.3
 htmljs@1.0.3
@@ -46,6 +46,7 @@ minimongo@1.0.6
 mizzao:bootstrap-3@3.3.1_1
 mobile-status-bar@1.0.2
 mongo@1.0.11
+natestrauser:animate-css@3.1.2
 observe-sequence@1.0.4
 ordered-dict@1.0.2
 random@1.0.2
