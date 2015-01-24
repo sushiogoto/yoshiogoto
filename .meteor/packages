@@ -11,3 +11,5 @@ linto:fontawesome
 iron:router
 mizzao:bootstrap-3
 linto:jquery-ui
+http
+gfk:mailgun-api
