@@ -29,10 +29,6 @@
 
 }
 
-html {
-  height: 100%;
-}
-
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -335,7 +331,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    /*background-attachment: scroll;*/
+    background-attachment: scroll;
     background-position: center;
     background-repeat: none;
     background-size: cover;
@@ -354,7 +350,7 @@ header video {
 }
 
 header .intro-text {
-    padding-top: 280px;
+    padding-top: 250px;
     position: relative;
     height: 100%;
 }
@@ -372,7 +368,7 @@ header .intro-text .intro-heading {
     margin-bottom: 35px;
     text-transform: uppercase;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 100;
     line-height: 50px;
     letter-spacing: 5px;
@@ -381,14 +377,13 @@ header .intro-text .intro-heading {
 
 .page-scroll > i {
     font-size: 6em;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 280px;
-        padding-bottom: 200px;
-        height: 748px;
+        padding-top: 230px;
+        height: 100%;
     }
 
     header .intro-text .intro-lead-in {
@@ -409,13 +404,17 @@ header .intro-text .intro-heading {
         line-height: 75px;
         letter-spacing: 5px;
     }
+
+    .page-scroll > i {
+      font-size: 6em;
+      margin-top: 100px;
+    }
 }
 
 @media(min-width:768px) and (max-width:992px) {
     header .intro-text {
-        padding-top: 280px;
-        padding-bottom: 200px;
-        height: 748px;
+        padding-top: 230px;
+        height: 100%;
     }
 
     header .intro-text .intro-lead-in {
@@ -430,11 +429,11 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 5.5em;
-        font-weight: 700;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 100;
         line-height: 75px;
-        letter-spacing: -6px;
+        letter-spacing: 5px;
     }
 }
 
