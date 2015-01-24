@@ -29,6 +29,10 @@
 
 }
 
+html {
+  height: 100%;
+}
+
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -351,9 +355,8 @@ header video {
 
 header .intro-text {
     padding-top: 280px;
-    padding-bottom: 200px;
     position: relative;
-    height: 748px;
+    height: 100%;
 }
 
 header .intro-text .intro-lead-in {
