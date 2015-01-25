@@ -962,6 +962,10 @@ ul.social-buttons li a:active {
     opacity: 0;
 }
 
+.service-type {
+  font-size: 18px;
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #fed136;
