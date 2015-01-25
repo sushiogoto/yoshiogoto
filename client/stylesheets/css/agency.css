@@ -476,7 +476,7 @@ section h3.section-subheading {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 360px;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -517,7 +517,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 25px;
-    max-width: 400px;
+    max-width: 360px;
     text-align: center;
     background-color: #fff;
 }
@@ -967,14 +967,15 @@ ul.social-buttons li a:active {
 }
 
 .prototype-tag {
-  position: absolute;
-  right: 25px;
-  top: 270px;
+  position: relative;
+  width: 80px;
   background: #888;
   color: whitesmoke;
   padding-left: 5px;
   padding-right: 5px;
   border-radius: 5px;
+  margin-left: 75%;
+  margin-top: -5%;
 }
 
 ::-moz-selection {
