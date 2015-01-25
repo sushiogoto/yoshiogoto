@@ -1,7 +1,6 @@
 Template.services.rendered = function () {
   /* Every time the window is scrolled ... */
   $(window).scroll( function(){
-    console.log("Scrolling");
     /* Check the location of each desired element */
     $('.hideme').each( function(i){
       var bottom_of_object = $(this).position().top + $(this).outerHeight();
@@ -9,7 +8,8 @@ Template.services.rendered = function () {
 
       /* If the object is completely visible in the window, fade it it */
       if( bottom_of_window > bottom_of_object ){
-        $(this).animate({'opacity':'1'},500);
+        $(this).animate({'opacity':'1'},300);
+        $(this).find('.hex').addClass('popout');
       }
     });
   });
