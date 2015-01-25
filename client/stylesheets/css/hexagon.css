@@ -41,10 +41,14 @@
 
 .hex .corner-1 {
   transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
+  -o-transform: rotate(60deg);
 }
 
 .hex .corner-2 {
   transform: rotate(-60deg);
+  -webkit-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
 }
 
 .hex .corner-1:before,
