@@ -31,7 +31,7 @@ and (max-device-width : 480px) {
   header .intro-text .intro-lead-in {
       margin-bottom: 15px;
       text-transform: uppercase;
-      font-family: Impact,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-family: Impact,"ImpactFallback","Helvetica Neue",Helvetica,Arial,sans-serif;
       font-size: 4.5em;
       font-weight: 700;
       line-height: 50px;
