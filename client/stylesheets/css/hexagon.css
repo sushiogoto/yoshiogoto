@@ -1,12 +1,12 @@
 .hex {
-  width:110px;
-  height:63px;
+  width:150px;
+  height:87px;
   background-color: #ccc;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: auto 173px;
   position: relative;
-  margin:25px auto 50px;
+  margin:25px auto 65px;
   text-align:center;
   zoom:1;
   z-index: 0;
@@ -82,6 +82,10 @@
 .hex .inner {
   color:#eee;
   z-index: 10;
+}
+
+.fa-6-5x {
+  font-size: 6.5em;
 }
 
 .hex h4 {

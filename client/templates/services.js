@@ -1,7 +1,6 @@
 Template.services.rendered = function () {
   /* Every time the window is scrolled ... */
   $(window).scroll( function(){
-    console.log("Scrolling");
     /* Check the location of each desired element */
     $('.hideme').each( function(i){
       var bottom_of_object = $(this).position().top + $(this).outerHeight();
