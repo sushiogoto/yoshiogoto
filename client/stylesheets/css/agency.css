@@ -973,17 +973,6 @@ ul.social-buttons li a:active {
   font-size: 18px;
 }
 
-.prototype-tag {
-  position: absolute;
-  right: 25px;
-  top: 270px;
-  background: #888;
-  color: whitesmoke;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-radius: 5px;
-}
-
 ::-moz-selection {
   text-shadow: none;
   background: #fed136;

@@ -1,0 +1,16 @@
+img.img-responsive.portfolio-cover {
+  width: 100%;
+}
+
+div.portfolio-caption {
+  position: relative;
+}
+
+.prototype-tag {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background: #7771c1;
+  color: #FFF;
+  padding: 0 10px;
+}
