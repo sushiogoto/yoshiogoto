@@ -15,6 +15,10 @@ div.portfolio-caption {
   padding: 0 10px;
 }
 
+/* === HTML and CSS code for ribbons === */
+
+/*<div class="ribbon-wrapper"><div class="ribbon">Prototype</div></div>
+
 .ribbon-wrapper {
   width: 85px;
   height: 88px;
@@ -65,4 +69,4 @@ div.portfolio-caption {
 }
 .ribbon:after {
   right: 0;
-}
+}*/
