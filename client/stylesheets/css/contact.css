@@ -1,0 +1,9 @@
+textarea.form-control.contact-form-input,
+input.form-control.contact-form-input {
+  border-radius: 0;
+}
+
+button.btn.contact-form-submit {
+  border-radius: 0;
+  color: #444;
+}
