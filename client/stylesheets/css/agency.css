@@ -30,6 +30,19 @@
 }
 
 @font-face {
+  font-family: 'Cobert';
+  src: url('/fonts/Corbert-Regular-webfont.eot');
+  src: url('/fonts/Corbert-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/Corbert-Regular-webfont.woff2') format('woff2'),
+    url('/fonts/Corbert-Regular-webfont.woff') format('woff'),
+    url('/fonts/Corbert-Regular-webfont.ttf') format('truetype'),
+    url('/fonts/Corbert-Regular-webfont.svg#Cobert_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
   font-family: 'ImpactFallback';
   src: url('/fonts/Impact.ttf') format('truetype');
   font-weight: normal;
@@ -38,7 +51,7 @@
 
 body {
   overflow-x: hidden;
-  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Cobert","Helvetica Neue",Helvetica,Arial,sans-serif;
   background-color: transparent;
 }
 
@@ -85,7 +98,7 @@ h4,
 h5,
 h6 {
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Cobert", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
 }
 
