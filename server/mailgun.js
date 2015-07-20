@@ -19,11 +19,11 @@ Meteor.startup(function() {
       var NigerianPrinceGun = new Mailgun(options);
 
       return NigerianPrinceGun.send({
-         'to': 'info@cratr.io',
-         'from': 'postmaster@cratr.io',
+         'to': 'yoshio.goto+yoshiogoto@gmail.com',
+         'from': 'postmaster@yoshiogoto.com',
          'html': '<html><head></head><body>Name: ' + formAttributes.nameStr + ' Email Address: ' + formAttributes.email + '\nPhone: ' + formAttributes.phone + '\nMessage: ' + formAttributes.message + '</body></html>',
          'text': 'Name: ' + formAttributes.nameStr + ' Email Address: ' + formAttributes.email + '\nPhone: ' + formAttributes.phone + '\nMessage: ' + formAttributes.message,
-         'subject': '(cratr.io) Contact Form',
+         'subject': '(yoshiogoto.com) Contact Form',
          'tags': [
            'lead',
            'homepage',
